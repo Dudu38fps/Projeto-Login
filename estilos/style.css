@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 515px;
+    border-radius: 17px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
+    overflow: hidden;
+}
+
+section#login > div#imagem {
+    display: block;
+    background: blue url(../imagens/pexels-irina-iriser-1083807.jpg)no-repeat;
+    background-position: left top;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div.form {
+    padding: 10px;
+    display: block;
+}
+

@@ -3,17 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Login</title>
 </head>
 <body>
     <main>
-        <section>
+        <section id="login">
             <div id="imagem">
-
+                
             </div>
-            <div id="login">
-                <h1>Bem Vindo! Coloque suas informações abaixo</h1>
+            <div id="form">
+                <h1>Login</h1>
+                <p>Seja bem-vindo! faça seu login para acessar sua conta </p>
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" placeholder="seu e-mail" required >
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <label for="esenha">Senha</label>
+                        <input type="password" name="senha" id="esenha" minlength="5" maxlength="15" placeholder="sua senha" autocomplete="current-password" required >
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Entrar"> <br>
+                        <input type="reset" value="Esqueci a senha">
+                    </p>
+                </form>
             </div>
         </section>
     </main>
