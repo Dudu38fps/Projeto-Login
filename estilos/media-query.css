@@ -30,9 +30,10 @@
     body{
         background-image: linear-gradient(to top,#380DDE,blueviolet);
     }
-    
+
     section#login {
         width: 900px;
+        font-size: 1.3em;
     }
     
     section#login > div#imagem {
@@ -45,8 +46,13 @@
         float: right;
         width: 60%;
         height: 100%;
+        font-size: 1.0em;
     }
 
+    section#login div.campo {
+        font-size: 1.2em;
+    }
+    
     
 }
 
