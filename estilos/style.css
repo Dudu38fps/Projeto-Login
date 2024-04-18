@@ -26,7 +26,7 @@ section#login {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 250px;
+    width: 255px;
     height: 515px;
     border-radius: 17px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.356);
@@ -46,5 +46,60 @@ section#login > div#imagem {
 section#login > div.form {
     padding: 10px;
     display: block;
+    
+}
+
+form div.campo {
+    background-color: #380DDE;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    padding: 7px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form  input[type=submit] {
+    display: block;
+    font-size: 1.0em;
+    width: 100%;
+    height: 40px;
+    margin-top: 12px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+form input[type=submit]:hover {
+    background-color: rgb(78, 25, 128);
+    transition: .3s;
+}
+
+form a.botao {
+    display: block;
+    font-size: 1.0em;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+    color: #380DDE;
+    border: 1px solid #380DDE;
+    text-decoration: none;
+    margin-top: 5px;
+    padding-top:  5px;
+    
+    
+}
+
+form a.botao:hover {
+    background-color: rgb(78, 25, 128);
+    transition: .3s;
+    color: white;
 }
 
