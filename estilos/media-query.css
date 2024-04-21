@@ -9,6 +9,7 @@
 
     section#login {
         width: 80vw;
+        height: 400px;
         
     }
 
@@ -31,8 +32,19 @@
         background-image: linear-gradient(to top,#380DDE,blueviolet);
     }
 
+    div.campo > i {
+        font-size: 1.5em;  
+    }
+
+    div.campo > input {
+        font-size: 1em;
+        width: calc(100% - 55px);
+        transform: translateY(-10px);
+    }
+
     section#login {
         width: 900px;
+        height: 430px;
         font-size: 1.3em;
     }
     
